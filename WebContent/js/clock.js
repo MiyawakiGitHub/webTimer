@@ -42,10 +42,11 @@ const clock = () => {
 // 1秒ごとにclock関数を呼び出す
 setInterval(clock, 1000);
 
-let click_count = document.getElementBy(".click-count");
+let click_count = document.getElementBy(".first_button");
 
 var count = 0;
 var click_event = function(){
+	alert('alert');
 	count++;
 	document.querySelector(".click-count").innerText = count;
 }

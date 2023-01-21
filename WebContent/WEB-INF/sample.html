@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- BootstrapのCSS読み込み -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- jQuery読み込み -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- BootstrapのJS読み込み -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- tablednd読み込み -->
+	<script type="text/javascript" src="comn/jquery.tablednd.0.7.min.js"></script>
+	<title>PSYSTEM</title>
+</head>
+<table class="table tablesorter-bootstrap table-management">
+	<thead>
+		<tr class="nodrop nodrag">
+			<th style="width: 5%;"></th>
+			<th style="width: 20%;">name</th>
+			<th style="width: 20%;">type</th>
+			<th style="width: 10%;">public</th>
+			<th style="width: 40%;">description</th>
+			<th style="width: 5%;"></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<!-- 三本線の画像 -->
+			<td class="handle"><img src="img/handle.png"></td>
+			<td>name</td>
+			<td>type</td>
+			<td>public</td>
+			<td>description</td>
+			<!-- マイナスボタンの画像 -->
+			<td class="MinusBtn"><img src="img/minus.png"></td>
+		</tr>
+	</tbody>
+</table>
+<!-- プラスボタンの画像 -->
+<img class="PlusBtn" src="img/plus.png">

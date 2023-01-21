@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/* 全体を囲うコンテナー */
+.container {
+  height: 400px;
+  background-color: #15151e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#time {
+  color: #ffffff;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0,139,253,0.25);
+  margin: .5rem;
+}
+
+/* 時計の共通スタイル */
+.clock {
+  font-family: 'Share Tech Mono', monospace;
+  color: #daf6ff;
+  text-shadow: 0 0 20px #0aafe6;
+  line-height: 1.2;
+  text-align: center;
+}
+
+#start, #stop, #rap, #reset {
+  font-size: 1.5rem;
+  border-radius: .3rem;
+  box-shadow: 0 0 20px rgba(77, 78, 79, 0.25);
+}
+
+/* 文字サイズ調整 */
+@media screen and (max-width: 500px) {
+  .clock-date {
+    font-size: 5vw;
+  }
+  .clock-time {
+    font-size: 20vw;
+  }
+}
+
+/* ボタン */
+.css-button-rounded--grey {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #495057;
+  background: #495057;
+}
+.css-button-rounded--grey:hover {
+  background: #fff;
+  color: #495057
+}
