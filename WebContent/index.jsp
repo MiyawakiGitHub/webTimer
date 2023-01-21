@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<meta http-equiv="refresh"content="0;URL=http://localhost:8080/webTimer/TimerMainPage">
+<meta http-equiv="refresh"content="3;URL=http://localhost:8080/webTimer/TimerMainPage">
 <body>
 <P>３秒後にページ遷移します</P>
 </body>
